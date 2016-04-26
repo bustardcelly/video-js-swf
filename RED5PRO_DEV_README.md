@@ -9,10 +9,12 @@ The following steps will setup your local repository to work on local `origin` a
 3. Define the original repository as `upstream`
 4. Check out the `origin` branch of *red5pro* locally
 
+```
 $ git clone git@github.com:red5pro/video-js-swf.git
 $ cd video-js-swf
 $ git remote add updstream git@github.com:videojs/video-js-swf.git
 $ git checkout -b feature/red5pro origin/feature/red5pro
+```
 
 The first `clone` will automatically pull down a checkout of the *master* branch on `origin` (which is inline with the `upstream` master). The *red5pro* feature branch is based on the work from the original *master* of the forked repo.
 
