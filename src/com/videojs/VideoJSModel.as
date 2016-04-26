@@ -53,7 +53,7 @@ package com.videojs{
                 _mode = PlayerMode.VIDEO;
                 _currentPlaybackType = PlaybackType.HTTP;
                 _masterVolume = new SoundTransform();
-                _stageRect = new Rectangle(0, 0, 100, 100);
+                _stageRect = new Rectangle(0, 0, 320, 240);
             }
         }
 
